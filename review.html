@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Portal Review</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Job Portal Review</h1>
+    <form id="reviewForm">
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating">
+        <option value="5">5 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="2">2 Stars</option>
+        <option value="1">1 Star</option>
+      </select>
+      <br>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+      <br>
+      <button id="btn" type="submit">Submit</button>
+    </form>
+    <div id="reviews">
+      <!-- Display reviews here -->
+    </div>
+  </div>
+  <script src="review.js"></script>
+</body>
+</html>

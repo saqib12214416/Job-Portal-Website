@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Portal Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login to Job Portal</h2>
+    <p>Now you  can apply for your dream job</p>
+    <div class="with">
+      <div class="facebook">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-round-color-icon.png" alt="">
+        <h2>With Facebook</h2>
+      </div>
+      <div class="google">
+        <img src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png" alt="">
+        <h2>With Google</h2>
+      </div>
+    </div>
+    <div class="line-container">
+
+    </div>
+      <h1>OR</h1>
+    <hr id="line"> 
+    <form id="login-form">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+      <p id="error-message" class="error-message"></p>
+    </form>
+    <p class="signup-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

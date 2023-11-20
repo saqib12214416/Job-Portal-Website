@@ -1,0 +1,64 @@
+@font-face { font-family: monice; src: url('./monice/MoniceDemoRegular.ttf'); }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,0,0,1) 100%);
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    & div {
+        & img{
+          border-radius: 10%;
+        }
+    }
+  }
+  
+  .main {
+    margin-top: 15%;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    & h1{
+      /* color: red; */
+      font-family: 'monice';
+    }
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 20px;
+    
+    /* height: 100%; */
+    /* font-family: "monice"; */
+  }
+  input{
+    /* height: 110%; */
+    font-size: 20px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
